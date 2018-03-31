@@ -1,0 +1,269 @@
+/* FONTS */
+
+body 
+{font-family: 'Work Sans', sans-serif;
+font-weight: 300;
+color: #222;
+font-size: 18px;
+line-height: 26px;
+margin: 0;}
+
+p2 
+{font-size: 16px;}
+
+p.center
+{text-align: center}
+
+a 
+{color: #222;}
+
+h1 
+{font-size: 20px;
+line-height: 26px;
+color: #000066;
+text-transform: uppercase;
+font-weight: 500;}
+
+h2 
+{font-size: 18px;
+line-height: 52px;
+color: #000066;
+text-transform: uppercase;
+font-weight: 700;
+margin-top: 3em;}
+
+h3 
+{font-size: 18px;
+line-height: 52px;
+color: #666;
+font-weight: 700;
+margin-top: 3em;}
+
+p, p2, h1, h2, h3, h4
+{padding: 0 5%;}
+
+
+/* PHONE FIRST */
+
+header 
+{padding: 0;}
+
+section 
+{display: block;
+box-sizing: content-box;
+align-items : center;}
+
+footer
+{text-align: center;
+width: 100%;
+background-color: #eee;
+align-items: center;
+height: 100vh;
+clear: both;
+box-sizing: content-box;
+display: block;
+padding: 0;
+line-height: 36px;}
+
+.container
+{max-width: 100%;
+margin: 0 auto;
+clear: both;
+display: block;}
+
+.row
+{display: block;
+clear: both;
+box-sizing: content-box;}
+
+[class*="col"] 
+{width: 100%;
+position: relative;}
+
+
+/* HEADER */
+ 
+header:before, header:after 
+{content:"";
+display:table;}
+         
+header:after 
+{clear:both;}
+         
+/* For IE 6/7 (trigger hasLayout) */
+header 
+{zoom:1;}
+ 
+a.to_nav 
+{float: right;
+color: #fff;
+background-color: #222;
+text-decoration: none;
+padding: 10px 15px;
+font-size: 17px;
+line-height: 22px;
+text-transform: uppercase;
+letter-spacing: 0.1em;
+position: fixed;
+right: 0;
+z-index: 99;}
+ 
+a.to_nav:hover,
+a.to_nav:focus 
+{color: #fff;
+background: #000066;}
+
+
+/* MENU */
+ 
+#primary_nav ul 
+{list-style: none;
+padding: 15% 0 0 0;}
+ 
+#primary_nav li a 
+{display: block;
+padding: 0;
+color: #222;
+text-decoration: none;
+text-transform: uppercase;
+letter-spacing: 0.1em;
+line-height: 2em;
+background: #ddd;
+border-bottom: solid 2px #fff;}
+
+.item_home
+{border-top: solid 2px #fff;}
+ 
+#primary_nav li a:hover,
+#primary_nav li a:focus
+{color: #fff;
+background: #000066;}
+
+
+/* IMAGES */
+
+.logo 
+{margin: 10%;
+width: 80%;
+max-width: 367px;}
+
+footer .logo 
+{margin-bottom: 40px;}
+
+.profile
+{width: 80%;
+max-width: 500px;
+margin: 10%;}
+
+
+/* MORE */
+
+.button_contact 
+{float: right;}
+
+.button_contact 
+{border: 1px solid #222;
+color: #222;
+font-size: 16px;
+font-weight: 500;
+padding: 5px 30px;
+margin-right: 10px;
+cursor: pointer;
+background: none;
+background-color: #ccc;}
+
+.button_contact:hover, 
+.button_contact:focus 
+{background-color: #000066;
+color: #fff;}
+
+
+/* DESKTOP */
+
+@media all and (min-width: 960px) 
+{
+
+h1 
+{line-height: 48px;}
+
+header 
+{padding: 0;}
+
+section 
+{height: 100vh;
+display: flex;}
+
+footer
+{height: 100vh;
+display: flex;}
+
+.container
+{max-width: 960px;}
+
+.row
+{display: block;
+clear: both;
+box-sizing: content-box;}
+
+.col12
+{width: 100%;
+position: relative;}
+
+.col8
+{width: 66.6%;
+display: inline;
+float: left;
+position: relative;}
+
+.col6
+{width: 50%;
+display: inline;
+float: left;
+position: relative;}
+
+.col4
+{width: 33.3%;
+display: inline;
+float: left;
+position: relative;}
+
+.col3
+{width: 25%;
+display: inline;
+float: left;
+position: relative;}
+
+.col6 .logo
+{margin: 0 0 0 5%;}
+
+a.to_nav 
+{display: none;}
+
+#primary_nav 
+{position: fixed;
+top: 0;
+right: 0;
+background-color: #eee;
+width: 100%;
+padding: 0;
+border-bottom: solid 1px #ccc;}
+
+#primary_nav ul 
+{list-style: none;
+padding: 0;
+margin: 0 auto 10px auto;
+max-width: 960px;}
+     
+#primary_nav li 
+{display: inline;}
+     
+#primary_nav li a 
+{float: left;
+border: none;
+padding: 0 10px;
+background-color: #eee;}
+
+.item_contact {display: block;}
+ 
+}
+
