@@ -177,10 +177,6 @@ background-color: #ccc;}
 {background-color: #000066;
 color: #fff;}
 
-#home{
-    height: 100vh;
-}
-
 /* DESKTOP */
 
 @media all and (min-width: 960px)
@@ -267,6 +263,10 @@ padding: 0 10px;
 background-color: #eee;}
 
 .item_contact {display: block;}
+
+#home{
+height: 100vh;
+}
 
 }
 
