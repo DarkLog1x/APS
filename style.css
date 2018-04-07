@@ -232,8 +232,10 @@ display: inline;
 float: left;
 position: relative;}
 
+/*
 .col6 .logo
 {margin: 0 0 0 5%;}
+*/
 
 a.to_nav
 {display: none;}
