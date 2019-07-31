@@ -5,6 +5,7 @@
     "home_page_url": "https://attackpointsecurity.com",
     "feed_url": "https://attackpointsecurity.com/feed.json",
     "user_comment": "",
+    "icon": "https://attackpointsecurity.com/media/website/AttackPointSecurity-logo.png",
     "author": {
         "name": "Aleksander Okonski"
     },
@@ -13,7 +14,7 @@
             "id": "https://attackpointsecurity.com/pass-yubikey-and-gpg.html",
             "url": "https://attackpointsecurity.com/pass-yubikey-and-gpg.html",
             "title": "GoPass, Yubikey, and GPG",
-            "summary": "TL:DR - Yubikey is an awesome little tool that streamlines GoPass on-top of all the other great things it does.I use GoPass to store my passwords. Its a great tool that I would recommend everyone use if you are familiar with cli. Side note, if&hellip;",
+            "summary": "TL:DR - Yubikey is an awesome little tool that streamlines GoPass on-top of all the other great things it does.I use GoPass to store my passwords. Its a great tool&hellip;",
             "content_html": "<pre>TL:DR - Yubikey is an awesome little tool that streamlines GoPass on-top of all the other great things it does.</pre>\n<p id=\"mcetoc_1dgualr1f2\">I use GoPass to store my passwords. Its a great tool that I would recommend everyone use if you are familiar with cli. Side note, if you are not using any password manager then shame on you, its 2019 there are a plethora of good ones to choose from (pass/gopass, lastpass[paid], and KeePassX) alongside many more.</p>\n<p>The one downside I always had with GoPass was that I would have to always type my GPG master password to unencrypted my passwords every time I needed one. This took time and depending on my coffee consumption several attempts to get right.</p>\n<p id=\"mcetoc_1dgucntm80\">The best guide that I have found on setting up my Yubkey with GPG is drduh's github guide at <a href=\"https://github.com/drduh/YubiKey-Guide\">YubiKey-Guide</a>. It is clean, consice and easy to follow. </p>\n<p>Once you have your GPG keys and subkeys created then stored on your Yubkey it is as simple as running GoPass and typing in your Yubikey password. </p>",
             "author": {
                 "name": "Aleksander Okonski"
