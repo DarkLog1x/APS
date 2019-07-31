@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>AttackPointSecurity</title>
-    <link href="https://DarkLog1x.github.io/APS/feed.xml" rel="self" />
-    <link href="https://DarkLog1x.github.io/APS" />
-    <updated>2019-07-31T15:13:55+02:00</updated>
+    <link href="https://attackpointsecurity.com/feed.xml" rel="self" />
+    <link href="https://attackpointsecurity.com" />
+    <updated>2019-07-31T15:26:16+02:00</updated>
     <author>
         <name>Aleksander Okonski</name>
     </author>
-    <id>https://DarkLog1x.github.io/APS</id>
+    <id>https://attackpointsecurity.com</id>
 
     <entry>
         <title>GoPass, Yubikey, and GPG</title>
         <author>
             <name>Aleksander Okonski</name>
         </author>
-        <link href="https://DarkLog1x.github.io/APS/pass-yubikey-and-gpg.html"/>
-        <id>https://DarkLog1x.github.io/APS/pass-yubikey-and-gpg.html</id>
+        <link href="https://attackpointsecurity.com/pass-yubikey-and-gpg.html"/>
+        <id>https://attackpointsecurity.com/pass-yubikey-and-gpg.html</id>
 
         <updated>2019-07-31T14:15:24+02:00</updated>
             <summary>
